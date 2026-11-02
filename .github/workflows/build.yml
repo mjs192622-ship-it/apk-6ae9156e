@@ -14,6 +14,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: 
+      contents: write
     timeout-minutes: 35
 
     steps:
